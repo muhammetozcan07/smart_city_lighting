@@ -19,3 +19,8 @@ Bu çalışma, Berlin kentsel hareketlilik verileri kullanılarak, kentsel aydı
 
 <img width="945" height="392" alt="image" src="https://github.com/user-attachments/assets/cecf3c43-ddd7-4441-bd51-a3222131b154" />
 
+# Metodoloji
+
+<img width="885" height="591" alt="image" src="https://github.com/user-attachments/assets/30814ba0-39f9-4c91-b4f2-debd0c37ca9e" />
+
+
