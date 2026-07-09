@@ -8,5 +8,14 @@ Trafik Verileri
 •	Congestion level [%] (Trafik Yoğunluğu): Trafiğin sıkışıklık düzeyidir. Yine standartlaştırılmış bir değerdir. Yüksek trafik yoğunluğu, caddede daha fazla araç ve dolayısıyla daha fazla görünürlük ihtiyacı (güvenlik) demektir.
 
 •	hour_sin (Sinüs) ve hour_cos (Kosinüs): Saatin döngüsel pozisyonunun dikey ve yatay bileşleridir. Bu iki değer birlikte, modelin günün hangi vaktinde olduğunu (sabah, öğle, gece) hatasız bir şekilde anlamasını sağlar.
+
 <img width="790" height="354" alt="image" src="https://github.com/user-attachments/assets/982b5e4f-5308-44b2-be70-9b8f3f0eaf37" />
+
+Hava Durumu Verileri
+
+•	precipitation (Yağış): Milimetrik bazda yağış miktarıdır. Standartlaştırılmıştır. Değer arttıkça yapay zeka kötü hava koşullarının yarattığı riskleri hesaba katarak "Güvenlik Cezası" tetiklenmesin diye ışığı daha dikkatli yönetir.
+
+•	weather_code (Hava Durumu Kodu): Kategorik bir veridir. 0 (açık hava) ile 75 (yoğun kar) arasında değişir. Ajan, 51 ve üzerindeki kodları (yağışlı/karlı havalar) "kötü hava" olarak tanımlayıp ışık seviyesini daha yüksek tutmaya çalışır.
+
+<img width="945" height="392" alt="image" src="https://github.com/user-attachments/assets/cecf3c43-ddd7-4441-bd51-a3222131b154" />
 
