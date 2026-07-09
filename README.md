@@ -8,3 +8,5 @@ Trafik Verileri
 •	Congestion level [%] (Trafik Yoğunluğu): Trafiğin sıkışıklık düzeyidir. Yine standartlaştırılmış bir değerdir. Yüksek trafik yoğunluğu, caddede daha fazla araç ve dolayısıyla daha fazla görünürlük ihtiyacı (güvenlik) demektir.
 
 •	hour_sin (Sinüs) ve hour_cos (Kosinüs): Saatin döngüsel pozisyonunun dikey ve yatay bileşleridir. Bu iki değer birlikte, modelin günün hangi vaktinde olduğunu (sabah, öğle, gece) hatasız bir şekilde anlamasını sağlar.
+<img width="790" height="354" alt="image" src="https://github.com/user-attachments/assets/982b5e4f-5308-44b2-be70-9b8f3f0eaf37" />
+
