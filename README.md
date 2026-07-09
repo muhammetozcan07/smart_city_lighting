@@ -27,4 +27,15 @@ Sistemin davranışını belirleyen aksiyon uzayı, 0, 25, 50, 100 değerlerinde
 
 <img width="885" height="591" alt="image" src="https://github.com/user-attachments/assets/30814ba0-39f9-4c91-b4f2-debd0c37ca9e" />
 
+# Bulgular
+Aşağıdaki resimde derin pekiştirmeli öğrenme (DQN) ajanının 200 eğitim bölümü boyunca elde ettiği toplam ödül değerleri gösterilmektedir. Açık mavi çizgi her eğitim turunda elde edilen toplam ödülü, koyu mavi çizgi ise 10 turluk hareketli ortalamayı temsil etmektedir. Eğitimin ilk bölümlerinde ajan çevreyi keşfetme aşamasında olduğu için ödül değerlerinde büyük dalgalanmalar görülmektedir. Yaklaşık 20. bölümden sonra hareketli ortalamanın hızlı bir şekilde yükselmesi, ajanın çevreyi öğrenmeye başladığını göstermektedir. İlerleyen bölümlerde toplam ödül 400–440 aralığında kararlı bir seyir izlemekte ve yalnızca keşif stratejisinden (epsilon-greedy) kaynaklanan küçük dalgalanmalar gözlenmektedir. Eğitim sonunda hareketli ortalamanın yaklaşık 440 seviyesine ulaşması, DQN ajanının uygun aydınlatma kararlarını büyük ölçüde öğrenerek istikrarlı bir performans sergilediğini göstermektedir.
+
+<img width="945" height="523" alt="image" src="https://github.com/user-attachments/assets/4eee494c-120e-44fb-9f3f-29ccc557943d" />
+
+Aşağıdaki resimde ise sunulan canlı test çıktısı incelendiğinde, eğitilmiş derin pekiştirmeli öğrenme (DQN) ajanının çevresel değişkenleri son derece isabetli bir şekilde analiz ettiği ve veri setiyle tam uyumlu kararlar aldığı açıkça görülmektedir. Sisteme yansıyan anlık sensör verilerine göre; saat 02:00 itibarıyla trafik yoğunluğunun %16.4 gibi oldukça düşük bir seviyede seyrettiği ve ortalama araç hızının 47.5 km/s ile trafik akışının akıcı (sıkışıksız) olduğu tespit edilmiştir. Aynı zamanda yağışın bulunmaması (0.00 mm) ve hava koşullarının olağan düzeyde (Hava Kodu: 3 - Bulutlu) olması, yoldaki sürüş güvenliğini tehdit edecek meteorolojik bir risk faktörü barındırmamaktadır. Gecenin ilerleyen saatleri olmasına rağmen, hem trafik hacminin düşüklüğü hem de olumlu hava şartları göz önüne alınarak veri setindeki ideal aydınlatma seviyesi %25 olarak belirlenmiştir. Yapay zeka modelinin de o anki durumu (state) başarıyla çözümleyerek birebir aynı oranda (%25) aydınlatma kararı aldığı ve bu doğru tahmini sayesinde maksimum başarı değeri olan 10.00 tam puanı kazandığı kaydedilmiştir. Bu sonuç, geliştirilen modelin sadece kuralları ezberlemediğini; aynı zamanda gecenin geç saatlerinde boş ve yağışsız bir yolda ışıkları tamamen açmanın (%100) bir enerji israfı olacağını kavrayarak, güvenlik ve enerji tasarrufu arasındaki optimum dengeyi başarıyla kurabildiğini kanıtlamaktadır.
+
+<img width="478" height="359" alt="image" src="https://github.com/user-attachments/assets/50839437-127c-48f8-be1b-65d2c0a1a763" />
+
+
+
 
